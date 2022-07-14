@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/reactPortfolio/static/js/main.061f2aac.js",
+    "main.js": "/reactPortfolio/static/js/main.f638e70b.js",
     "static/media/HiMemoji.png": "/reactPortfolio/static/media/HiMemoji.59de35892097d8771985.png",
     "static/media/AboutMemoji.png": "/reactPortfolio/static/media/AboutMemoji.b2fa58a7d192b062f595.png",
     "static/media/TheThinker.png": "/reactPortfolio/static/media/TheThinker.4ae6bb700ce3eda8c43f.png",
     "index.html": "/reactPortfolio/index.html",
-    "main.061f2aac.js.map": "/reactPortfolio/static/js/main.061f2aac.js.map"
+    "main.f638e70b.js.map": "/reactPortfolio/static/js/main.f638e70b.js.map"
   },
   "entrypoints": [
-    "static/js/main.061f2aac.js"
+    "static/js/main.f638e70b.js"
   ]
 }
