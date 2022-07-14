@@ -17,11 +17,11 @@ const MenuMobile: React.FC = () => {
       </MenuButton>
       {isMenuOpen && (
         <MenuOptions>
-          <Pages href='/'>Inicio</Pages>
-          <Pages href='/about'>Sobre</Pages>
-          <Pages href='/qualifications'>Experiências</Pages>
-          <Pages href='/projects'>Projetos</Pages>
-          <Pages href='/contact'>Serviços</Pages>
+          <Pages to='/'>Inicio</Pages>
+          <Pages to='/about'>Sobre</Pages>
+          <Pages to='/qualifications'>Experiências</Pages>
+          <Pages to='/projects'>Projetos</Pages>
+          <Pages to='/contact'>Serviços</Pages>
         </MenuOptions>
       )
       }

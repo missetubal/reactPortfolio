@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const Container = styled.div`
     display: none;
@@ -8,7 +9,7 @@ export const Container = styled.div`
     }
 `
 
-export const Pages = styled.a`
+export const Pages = styled(Link)`
     margin: 0px 10px;
     font-size: 19px;
     text-decoration: none;
