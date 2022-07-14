@@ -13,9 +13,9 @@ const AnimatedRoute: React.FC = () => {
         <AnimatePresence>
             <Routes location={location} key={location.pathname}>
                 <Route path='/' element={<Home />} />
-                <Route path='about' element={<About />} />
-                <Route path='projects' element={<Projects />} />
-                <Route path='qualifications' element={<Qualifications />} />
+                <Route path='/about' element={<About />} />
+                <Route path='/projects' element={<Projects />} />
+                <Route path='/qualifications' element={<Qualifications />} />
             </Routes>
         </AnimatePresence>
 
