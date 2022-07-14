@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Moon from '../../assets/MoonBlack';
 
-import { NavContainer, NavLeft, NavOptions, NavRight, Pages, SwitchColor, TextLeft } from './Navbar.styles';
+import { NavContainer, NavLeft, NavOptions, NavRight, StyledLink, SwitchColor, TextLeft } from './Navbar.styles';
 
 const Navbar: React.FC = () => {
   const [isDark, setIsDark] = useState(false)
@@ -13,11 +13,11 @@ const Navbar: React.FC = () => {
       
         <NavRight>
           <NavOptions>
-            <Pages href='/'>Inicio</Pages>
-            <Pages href='/about'>Sobre</Pages>
-            <Pages href='/qualifications'>Experiências</Pages>
-            <Pages href='/projects'>Projetos</Pages>
-            <Pages href='/contact'>Serviços</Pages>
+            <StyledLink style={{textDecoration: 'none'}} to='/'>Inicio</StyledLink>
+            <StyledLink to='/about'>Sobre</StyledLink>
+            <StyledLink to='/qualifications'>Experiências</StyledLink>
+            <StyledLink to='/projects'>Projetos</StyledLink>
+            <StyledLink to='/contact'>Serviços</StyledLink>
           </NavOptions>
           <SwitchColor onClick={() => setIsDark(!isDark)}>
             <Moon />

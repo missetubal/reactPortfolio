@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export const NavContainer = styled.nav`
     padding: 19px 32px;
@@ -14,13 +15,19 @@ export const NavContainer = styled.nav`
 `
 export const NavOptions = styled.ul`
     margin-right: 64px;
+    display: flex;
 `
-export const Pages = styled.a`
+export const StyledLink = styled(Link)`
     margin: 0px 10px;
     font-size: 19px;
     text-decoration: none;
+    list-style: none;
     color: #000000;
 `
+// export const StyledLink = styled(Link)`
+
+// `
+
 export const NavLeft = styled.div`
     display: flex;
     flex-direction: row;
