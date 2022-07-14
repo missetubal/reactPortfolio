@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/portfolio/static/js/main.bcca480e.js",
+    "static/media/HiMemoji.png": "/portfolio/static/media/HiMemoji.59de35892097d8771985.png",
+    "static/media/AboutMemoji.png": "/portfolio/static/media/AboutMemoji.b2fa58a7d192b062f595.png",
+    "static/media/TheThinker.png": "/portfolio/static/media/TheThinker.4ae6bb700ce3eda8c43f.png",
+    "index.html": "/portfolio/index.html",
+    "main.bcca480e.js.map": "/portfolio/static/js/main.bcca480e.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.bcca480e.js"
+  ]
+}
